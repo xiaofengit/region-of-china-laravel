@@ -84,6 +84,10 @@ class Region
             }
         }
 
+        if ($parent == $code) {
+            $parent = null;
+        }
+
         return $parent;
     }
 
